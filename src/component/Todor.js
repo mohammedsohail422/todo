@@ -84,7 +84,7 @@ const Todor = () => {
             />
             {toggleSubmit ? (
               <i
-                className=" fa fa-plus add-btn"
+                className=" fa-solid fa-file-circle-plus add-btn"
                 title="add item"
                 onClick={addItem}
               ></i>

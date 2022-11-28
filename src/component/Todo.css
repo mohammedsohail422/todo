@@ -72,7 +72,7 @@ input:focus {
   justify-content: space-around;
 }
 
-.fa {
+.fa-solid {
   margin-left: -2.5rem;
   cursor: pointer;
   pointer-events: auto;
@@ -84,8 +84,8 @@ input:focus {
   transition: color 0.15s linear;
   font-size: 2rem;
 }
-.fa:hover {
-  color: rgb(47, 214, 122);
+.fa-solid:hover {
+  color: blue;
 }
 
 .fa-plus:before {
