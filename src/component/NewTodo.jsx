@@ -35,7 +35,7 @@ return(
   <>
     <h1>Todo <button onClick={deleteAll}>Clear all</button></h1>
     <input type="text" value={item} onChange={(e)=>setItem(e.target.value)}/>
-    <button onClick={handleAdd}>Add</button>
+    <button onClick={handleAdd}>{editIndex != null ? "Edit" : "Add"}</button>
    {
      lists.map((ele,index)=>{
        return(
